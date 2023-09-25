@@ -4,7 +4,13 @@ import pyclip as pyperclip
 import qbittorrentapi
 from dotenv import dotenv_values
 
+# import environment:
+# conda env create -f .\environment.yml
+# use:
 # conda run --live-stream -n qBittorrentBulkApp python main.py
+
+# export existing environment:
+# conda env export > <environment-name>.yml
 
 def init():
     init_env_var = dotenv_values()

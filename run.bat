@@ -1,0 +1,1 @@
+conda run --live-stream -n qBittorrentBulkApp python main.py %*
